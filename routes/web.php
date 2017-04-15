@@ -19,6 +19,6 @@ Auth::routes();
 
 Route::get('/cities', 'CityController@index');
 
-Auth::routes();
+Route::get('/counties', 'CountyController@index');
 
 Route::get('/home', 'HomeController@index');
